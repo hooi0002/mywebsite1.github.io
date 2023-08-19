@@ -1,0 +1,108 @@
+header {
+    background-color: lightseagreen;
+    color: slateblue;
+    text-align: center;
+    font-size: 50px;
+    border: 3px dotted green;
+    font-weight: bold;
+    font-family: fantasy;
+    padding-top: 10px;
+    height: 60px;
+}
+
+.profile {
+    text-align: center;
+    width: 60%;
+    float: left;
+    background-color: gold;
+}
+
+.footer {
+    background-color: black;
+    color: blanchedalmond;
+    font-size: 12px;
+    border: 3px solid wheat;
+    text-align: center;
+}
+
+.blink-color {
+    animation-name: blink-color-animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes blink-color-animation {
+    0% {
+        color: turquoise;
+        font-size: 25px;
+    }
+
+    25% {
+        color: tomato;
+        font-size: 30px;
+    }
+
+    50% {
+        color: crimson;
+        font-size: 35px;
+    }
+
+    75% {
+        color: gold;
+        font-size: 30px;
+    }
+
+    100% {
+        color: mediumpurple;
+        font-size: 25px;
+    }
+}
+
+.fade-in {
+    animation-name: fade-in-animation;
+    animation-duration: 6s;
+}
+
+@keyframes fade-in-animation {
+    from {
+        opacity: 0;
+        transform: rotate(-360deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotate(0deg);
+    }
+}
+
+.nav-bar {
+    width: 100%;
+    border: yellow solid 10px;
+    background-color: palegreen;
+}
+
+.wrapper {
+    background-color: aqua;
+    width: 80%;
+    margin: auto;
+}
+
+.sidebar-left {
+    background-color: dimgray;
+    float: left;
+    width: 20%;
+    height: 570px;
+}
+
+.sidebar-right {
+    background-color: dimgray;
+    float: right;
+    width: 20%;
+    height: 570px;
+}
+
+.row {
+    width: 70%;
+    margin: auto;
+}
